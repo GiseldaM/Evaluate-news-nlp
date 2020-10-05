@@ -1,3 +1,13 @@
+# Evaluate a news article with Natural Language Processing
+This project requires you to build a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites.
+
+This project works with the following:
+
+* Webpack: Build tool
+* Service Workers: Offline functionality
+* Node & Express: For server side development
+* Vanilla JS: For client side development
+
 # Project Instructions
 
 To get started:
@@ -17,14 +27,3 @@ npm cache clean
 npm install
 
 * If it asks to fix the vulnerabilities, run npm audit fix
-
-
-# Evaluate a news article with Natural Language Processing
-This project requires you to build a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites.
-
-This project works with the following:
-
-* Webpack: Build tool
-* Service Workers: Offline functionality
-* Node & Express: For server side development
-* Vanilla JS: For client side development
