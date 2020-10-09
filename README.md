@@ -1,12 +1,5 @@
 # Evaluate a news article with Natural Language Processing
-This project requires you to build a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites.
-
-This project works with the following:
-
-* Webpack: Build tool
-* Service Workers: Offline functionality
-* Node & Express: For server side development
-* Vanilla JS: For client side development
+This is a frontend application that can interact with Meaningcloud API and run Natural Language Processing (NLP) on text and article links.
 
 # Project Instructions
 
@@ -27,3 +20,19 @@ npm cache clean
 npm install
 
 * If it asks to fix the vulnerabilities, run npm audit fix
+
+Install project dependencies
+cd into your new folder and run:
+
+npm install
+Run in development mode
+Start the webpack dev server npm run build-dev
+
+Start the server npm run start
+
+Run in production mode
+Generate the dist files and start the server npm run build-prod npm run start
+
+You will need a Meaningcloud API key https://www.meaningcloud.com/developer/login
+
+
