@@ -22,15 +22,19 @@ npm install
 * If it asks to fix the vulnerabilities, run npm audit fix
 
 Install project dependencies
+
 cd into your new folder and run:
 
 npm install
+
 Run in development mode
+
 Start the webpack dev server npm run build-dev
 
 Start the server npm run start
 
 Run in production mode
+
 Generate the dist files and start the server npm run build-prod npm run start
 
 You will need a Meaningcloud API key https://www.meaningcloud.com/developer/login
